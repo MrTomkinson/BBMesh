@@ -1,4 +1,4 @@
-module bbsmesh
+module module github.com/MrTomkinson/BBMesh
 
 go 1.24.1
 
