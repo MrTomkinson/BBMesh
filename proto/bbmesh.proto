@@ -1,0 +1,18 @@
+syntax = "proto3";
+package bbmesh;
+option go_package = "github.com/MrTomkinson/BBMesh/pb";
+
+message Ping {
+  uint32 timestamp = 1;
+}
+
+message Pong {
+  uint32 timestamp = 1;
+}
+
+message BBMeshMessage {
+    oneof content {
+        Ping ping = 1;
+        Pong pong = 2;
+    }
+}
