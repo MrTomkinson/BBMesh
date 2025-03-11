@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+bbmesh_env/
+*.log
+requirements.txt
+src/__pycache__/
+tests/__pycache__/
