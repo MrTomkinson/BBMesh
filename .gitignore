@@ -21,3 +21,6 @@ Thumbs.db
 tests/
 old_versions/
 backups/
+python/
+src/
+tests/
