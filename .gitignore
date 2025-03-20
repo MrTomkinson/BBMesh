@@ -1,7 +1,23 @@
+# Ignore compiled Python files
 __pycache__/
 *.pyc
 *.pyo
-bbmesh_env/
+
+# Ignore logs and temporary files
 *.log
-src/__pycache__/
-tests/__pycache__/
+*.swp
+*.bak
+*.tmp
+
+# Ignore virtual environments
+venv/
+.bbmesh_env/
+
+# Ignore system files (macOS & Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore large or unnecessary directories
+tests/
+old_versions/
+backups/
