@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 Run termrecv.py to start listening for incoming messages:
 
-python3 termrecv.py --port /dev/ttyUSB1
+python3 termrecv.py --port /dev/ttyUSB#
 
 📌 Start the Sender in TUI Mode
 
