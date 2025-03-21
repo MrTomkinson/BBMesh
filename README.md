@@ -18,11 +18,13 @@ It includes a TUI (Text User Interface) for easier interaction and supports real
 1️⃣ Clone the Repository
 
 git clone https://github.com/MrTomkinson/BBMesh.git
+
 cd BBMesh
 
 2️⃣ Set Up a Virtual Environment (Recommended)
 
-python3 -m venv bbmesh_env
+python3 -m venv bbmesh_env .
+
 source bbmesh_env/bin/activate  # On Windows use: bbmesh_env\Scripts\activate
 
 3️⃣ Install Dependencies
